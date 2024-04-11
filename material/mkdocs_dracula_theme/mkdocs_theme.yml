@@ -1,0 +1,11 @@
+static_templates:
+    - 404.html
+
+locale: pt-br
+
+include_search_page: true
+search_index_only: false
+
+
+highlightjs: true
+hljs_languages: []

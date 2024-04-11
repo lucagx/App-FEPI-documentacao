@@ -1,0 +1,18 @@
+site_name: App Fepi
+site_url: https://example.com/
+nav:
+  - Home: index.md
+  - About: about.md
+  - Proposta: propostaApp.md
+  - Diagramas: diagramas.md
+  - Prototipos: prototipos.md
+  - Requisitos: requisitos.md
+
+theme:
+  name: null
+  custom_dir: './material/mkdocs_dracula_theme'
+  include_search_page: true
+
+  language: pt-br
+
+
