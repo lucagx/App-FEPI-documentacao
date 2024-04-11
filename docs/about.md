@@ -12,5 +12,3 @@ def fn():
 *Emphasize* : `*AAAAA*` or _Emphasize_ [^emphasize] (Command-I)
 
 
-
-
