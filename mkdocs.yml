@@ -13,6 +13,6 @@ theme:
   custom_dir: './material/mkdocs_dracula_theme'
   include_search_page: true
 
-  language: pt-br
+  language: pt_br
 
 
