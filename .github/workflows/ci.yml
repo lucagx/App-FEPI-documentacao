@@ -18,7 +18,7 @@ jobs:
         with:
           key: ${{ github.ref }}
           path: .cache
-      - run: pip install mkdocs-dracula-theme
+      - run: pip install mkdocs-simple-blog
       - run: mkdocs gh-deploy --force
 
       
