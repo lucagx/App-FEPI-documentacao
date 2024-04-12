@@ -2,8 +2,8 @@ name: ci
 on: 
   push:
     branches:
-      - development
       - main
+      - development
 permissions:
   contents: write
 jobs:
@@ -18,7 +18,7 @@ jobs:
         with:
           key: ${{ github.ref }}
           path: .cache
-      - run: pip install mkdocs-simple-blog
+      - run: pip install mkdocs_dracula_theme
       - run: mkdocs gh-deploy --force
 
       

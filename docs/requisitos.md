@@ -1,7 +1,5 @@
  <h1> Requisito de Software </h1>
 
- 
-
 
 #### Requisitos funcionais
 
