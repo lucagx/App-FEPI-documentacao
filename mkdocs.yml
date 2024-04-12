@@ -10,7 +10,7 @@ nav:
 
 theme:
   name: null
-  custom_dir: './material/mkdocs_dracula_theme'
+  custom_dir: './material/mkdocs_simple_blog'
   include_search_page: true
 
   language: pt-br
