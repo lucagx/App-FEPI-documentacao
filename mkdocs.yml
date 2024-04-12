@@ -4,15 +4,15 @@ nav:
   - Inicio: index.md
   - Sobre: about.md
   - Proposta: propostaApp.md
-  - Diagramas: diagramas.md
-  - Prototipos: prototipos.md
   - Requisitos: requisitos.md
+  - Diagramas: diagramas.md
+  - Modelagem: prototipos.md
 
 theme:
   name: null
-  custom_dir: './material/mkdocs_simple_blog'
+  custom_dir: './material/mkdocs_dracula_theme'
   include_search_page: true
 
-  language: pt_br
+  language: pt-br
 
 
