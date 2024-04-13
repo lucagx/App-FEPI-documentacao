@@ -8,24 +8,14 @@
 
     <div class="p-4">
         {% if config.theme.logo %}
-            <img class="logo" src="{{ config.theme.logo|url }}" height="150px">
+            <img class="logo" src="{{ config.theme.logo|url }}" height="100px">
         {% endif %}
 
         <div class="drac-text-center">
             {% if config.site_name %}
-                <span class="drac-text drac-line-height drac-text-white">{{ config.site_name }}</span>
+            <img src="https://cdn.icon-icons.com/icons2/1631/PNG/512/halloween37_109159.png" height="50px" alt="logo skull">
+            <span class="drac-text drac-line-height drac-text-white font-weight: bold" >{{ config.site_name }}</span>
             {% endif %}
-        </div>
-
-        <div class="drac-box flex-column">
-            <ul class="dot-ul">
-                <!-- <li><div class="dot-li drac-bg-black"></div></li>
-                <li><div class="dot-li drac-bg-green"></div></li>
-                <li><div class="dot-li drac-bg-orange"></div></li>
-                <li><div class="dot-li drac-bg-purple"></div></li>
-                <li><div class="dot-li drac-bg-yellow"></div></li>
-                <li><div class="dot-li drac-bg-red"></div></li> -->
-            </ul>
         </div>
 
         <hr class="drac-divider" />

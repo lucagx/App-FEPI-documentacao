@@ -19,6 +19,7 @@ jobs:
           key: ${{ github.ref }}
           path: .cache
       - run: pip install mkdocs_dracula_theme
+      - run: pip install pymdown-extensions 
       - run: mkdocs gh-deploy --force
 
       

@@ -1,5 +1,6 @@
-site_name: App Fepi
-site_url: https://example.com/
+site_name: App Fepi 
+site_description: Documentação do projeto de um aplicativo calculadora
+site_author: Lucas G | Alisson F
 nav:
   - Inicio: index.md
   - Sobre: about.md
@@ -15,4 +16,16 @@ theme:
 
   language: pt-br
 
+markdown_extensions:
+  - pymdownx.mark
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  
+extra_css:
+  - https://unpkg.com/mermaid@10.9.0/dist/mermaid.min.css
 
+extra_javascript:
+  - https://unpkg.com/mermaid@10.9.0/dist/mermaid.min.js
