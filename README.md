@@ -2,6 +2,13 @@
 
 [**Página Projeto**](https://lucagx.github.io/App-FEPI-documentacao/)
 
+_______
+
+[Lucas Gabriel X.](https://github.com/lucagx/)
+
+[Alisson Felipe](https://github.com/AlissonFelCosta)
+
+_______
 
 ## Visão Geral
 
