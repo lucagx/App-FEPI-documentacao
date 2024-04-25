@@ -1,6 +1,5 @@
 # Casos de uso 
 
-![alt text](https://miro.medium.com/v2/resize:fit:540/1*UDTjd_BHX3ppJSqSwmud1A.png)
 
 ![App FEPI](https://github.com/lucagx/App-FEPI-documentacao/assets/138620602/3cf5049c-992e-4eae-8448-0d0cbdb3814f)
 
