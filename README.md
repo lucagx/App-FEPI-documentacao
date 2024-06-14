@@ -17,6 +17,18 @@ Essa documentação busca apresentar a modelagem do sistema mostrando como foi o
 
 _______
 
+## Aplicativo Final
+
+Aplicativo desenvolvido integralmente com o MIT App Inventor para fins acadêmicos na disciplina de desenvolvimento de sistemas da faculdade.
+
+| ![loginArea](docs/img/AplicativoFinal/LoginApp.jpeg) | ![areaCadastro](docs/img/AplicativoFinal/RegistroAPp.jpeg) | ![Incial](docs/img/AplicativoFinal/InicialApp.jpeg) |
+|:--:| :--:| :--:|
+| **1.Tela Login** | **2.Tela de Cadastro** | **3.Tela de Inicial** |
+| ![gradesTab](docs/img/AplicativoFinal/Aprovado.png) | ![notasTab](docs/img/AplicativoFinal/CalculApp.jpeg) |![Perfil](docs/img/AplicativoFinal/PerfilApp.jpeg) |
+| **4.Tela Disciplinas** | **5.Tela de Calculo notas** | **6.Tela de Perfil Usuário** |
+
+_______
+
 
 
 **Funcionalidades Principais**
