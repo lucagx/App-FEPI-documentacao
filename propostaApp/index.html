@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+        <title>Proposta - App Fepi</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        
+        
+        <meta name="author" content="Lucas G | Alisson F">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="../assets/css/darcula-highlight.min.css">
+
+        <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../assets/css/dracula-ui.min.css">
+        <link rel="stylesheet" href="../assets/css/mkdocs.min.css">
+
+        
+            <link  rel="icon" type="image/x-icon" href="../assets/img/skull-logo.png">
+        
+
+</head>
+
+<body class="drac-bg-black-secondary drac-text-grey-ternary drac-text drac-scrollbar-purple">
+
+    <main class="d-flex">
+
+        <!-- block sidebar -->
+            <nav id="sidebar" class="sidebar drac-bg-black">
+    <div class="custom-menu">
+        <button type="button" id="sidebarCollapse" class="btn btn-primary">
+            <i class="fa fa-bars"></i>
+            <span class="sr-only">Menu</span>
+        </button>
+    </div>
+
+    <div class="p-4">
+        
+
+        <div class="drac-text-center">
+            
+            <img src="https://cdn.icon-icons.com/icons2/1631/PNG/512/halloween37_109159.png" height="50px" alt="logo skull">
+            <span class="drac-text drac-line-height drac-text-white font-weight: bold" >App Fepi</span>
+            
+        </div>
+
+        <hr class="drac-divider" />
+
+        <!-- block menu -->
+        <ul class="mb-5 drac-list drac-list-none">
+            
+            <li class="drac-box">
+                <a href=".."
+                    class="
+                    drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+                    Inicio
+                </a>
+            </li>
+            <li class="drac-box">
+                <a href="./"
+                    class=" active 
+                    drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+                    Proposta
+                </a>
+            </li>
+            <li class="drac-box">
+                <a href="../requisitos/"
+                    class="
+                    drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+                    Requisitos
+                </a>
+            </li>
+            <li class="drac-box">
+                <a href="../diagramas/"
+                    class="
+                    drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+                    Diagramas
+                </a>
+            </li>
+            <li class="drac-box">
+                <a href="../prototipos/"
+                    class="
+                    drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+                    Modelagem
+                </a>
+            </li>
+            <li class="drac-box">
+                <a href="../Aplicativo/"
+                    class="
+                    drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+                    Aplicacao
+                </a>
+            </li>
+        </ul>
+        <!-- endblock -->
+    </div>
+</nav>
+        <!-- endblock -->
+
+        <nav class="divider drac-bg-purple-cyan"></nav>
+
+        <div class="content">
+            <!-- block header -->
+                <header>
+    <nav class="navbar navbar-expand-xl drac-bg-purple">
+        <div class="container-fluid">
+            
+            <button class="navbar-toggler w-100 text-center" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsMenu"
+                aria-controls="navbarsMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse flex-column ml-auto" id="navbarsMenu">
+                <ul class="navbar-nav text-md-center">
+
+                    <!-- block preview -->
+                    <li class="nav-item">
+                            
+        <div class="container">
+            <div class="row row-preview">
+                <div class="col">
+                    <a href=".."
+                        class="btn-preview drac-btn drac-btn-outline drac-text-white drac-text-cyan-green--hover">
+                        <i class="fa fa-arrow-left"></i> Previous
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="../requisitos/"
+                        class="btn-preview drac-btn drac-btn-outline drac-text-white drac-text-cyan-green--hover" style="padding-left: 3%;">
+                        Next <i class="fa fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+                    </li>
+                    <!--  endblock -->
+
+                    <!-- block search -->
+                    <li class="nav-item"><div role="search" class="search-box">
+	<form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+		<input type="text" name="q" class="drac-input drac-input-search drac-input-white drac-text-white drac-bg-black-secondary"
+		placeholder="Search docs" title="Type search term here" />
+	</form>
+</div>
+                    </li>
+                    <!--  endblock -->
+
+                    <!-- block source -->
+                    <li class="nav-item">
+                        
+                    </li>
+                    <!--  endblock -->
+
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+</header>
+            <!-- endblock -->
+
+            <!-- block content -->
+                <section class="p-md-5 section-content">
+    <article>
+        <p><h1 align="center">Modelagem de um Sistema</h1>
+
+<h3 id="cenario">Cenário</h3>
+<p>Em uma faculdade as notas das disciplinas são divididas em dois bimestres N1 e N2.</p>
+<p>Ao final do semestre é calculada a nota semestral usando a seguinte fórmula:</p>
+<pre class="highlight"><code>S = (N1 * 2 + N2 *3)/5</code></pre>
+<p>O aluno é aprovado caso a NS seja igual ou superior a 70 pontos, caso seja inferior a 35 é
+reprovado. Caso contrário ele terá que fazer o exame final. Sendo assim, a nota final é
+calculada:
+<pre class="highlight"><code>Nota Final = (NS *3 + EF *2)/5</code></pre>
+O aluno é aprovado caso a nota final seja igual ou superior a 50 pontos.</p>
+<h3 id="problema">Problema</h3>
+<ul>
+<li>Sempre quando as notas do 1º bimestre são divulgadas, os alunos querem calcular a nota mínima necessária para ser aprovado.</li>
+<li>Sempre quando os alunos já sabem as notas do 1º e 2º bimestres, eles querem calcular a nota final e saber se foram aprovados ou ficaram de exames.</li>
+<li>Sempre quando as notas finais são divulgadas:</li>
+<li>Os alunos que ficaram de exame de final querem calcular a nota mínima
+necessária para tirar no exame final e ser aprovado.</li>
+</ul>
+<p>Sendo assim, a universidade identificou que os alunos precisam de um software para auxiliá-los a resolver esses problemas e contratou uma equipe de desenvolvimento de software criar um aplicativo.</p>
+<p>Além disso, a universidade pediu para criar uma forma do aluno conseguir salvar as notas de cada disciplina (N1, N2, Exame Final) a medida que elas são divulgadas.</p>
+<ul>
+<li>Os alunos podem salvar as notas de cada disciplina assim que elas são divulgadas<ul>
+<li>O aluno pode salvar notas das disciplinas e ver status (cursando, aprovado, reprovado, ficou exame final)</li>
+<li>O aluno pode ver as notas das disciplinas já cadastradas</li>
+<li>O aluno pode alterar as notas já cadastradas</li>
+<li>O aluno pode excluir uma disciplina cadastrada</li>
+</ul>
+</li>
+</ul>
+<h3 id="proposta">Proposta</h3>
+<p>Sua equipe irá participar do desenvolvimento do aplicativo que vai oferecer as funcionalidades que os alunos precisam. Com base nas informações apresentadas anteriormente sua equipe será responsável por:</p>
+<ol>
+<li>Identificar os requisitos funcionais e não funcionais (e priorizá-los). (5 pontos)</li>
+<li>Modelar o diagrama de casos de uso (5 pontos)</li>
+<li>Especificar os casos de uso. (5 pontos)</li>
+<li>Criar wireframes ou protótipos das telas do aplicativo (com Figma ou outro software) (5 pontos)</li>
+<li>Documentar usando o MkDocs</li>
+</ol>
+<p>Use a criatividade para resolver o problema criando o projeto de software desse aplicativo</p></p>
+    </article>
+</section>
+            <!-- endblock -->
+
+            <!-- block footer -->
+                <footer>
+    <div class="d-flex flex-sm-row justify-content-between py-2 border-top drac-text-black drac-bg-cyan-green">
+        <a href="https://github.com/dracula/mkdocs" target="_blank" style="padding-left: 1%;"
+            class="footer-text drac-anchor drac-text-black drac-text-purple--hover">
+            <!-- Made with Dracula Theme for MkDocs -->
+        </a>
+    </div>
+</footer>
+            <!-- endblock -->
+        </div>
+
+    </main>
+
+        <script>var base_url = '..';</script>
+        <script src="../assets/js/jquery-3.3.1.slim.min.js"></script>
+        <script src="../assets/js/bootstrap.bundle.min.js"></script>
+        <script src="../assets/js/mkdocs.js"></script>
+			<script src="../search/main.js" defer></script>
+
+</body>
+
+</html>
