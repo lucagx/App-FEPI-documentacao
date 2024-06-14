@@ -7,7 +7,7 @@ nav:
   - Requisitos: requisitos.md
   - Diagramas: diagramas.md
   - Modelagem: prototipos.md
-  - Aplicacao: aplicativo.md
+  - Aplicacao: Aplicativo.md
 
 theme:
   name: null
