@@ -15,6 +15,7 @@ theme:
   include_search_page: true
 
   language: pt-br
+  
 
 markdown_extensions:
   - pymdownx.mark

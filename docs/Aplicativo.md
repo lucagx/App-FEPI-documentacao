@@ -1,11 +1,15 @@
 # Aplicativo Final Resultado 
 
-### Video de demonstração de como o aplicativo funciona
-![VideoApp](./img/AplicativoFinal/Video%20Demonstracao.mp4)
-
-
 <br>
 
+### Video de demonstração de como o aplicativo funciona
+
+<video width="320" height="240" controls>
+  <source src="/img/AplicativoFinal/VideoDemonst.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+
+<br>
 
 ## Design Final
 | ![loginArea](./img/AplicativoFinal/LoginApp.jpeg) | ![areaCadastro](./img/AplicativoFinal/RegistroAPp.jpeg) | ![Incial](./img/AplicativoFinal/InicialApp.jpeg) |
